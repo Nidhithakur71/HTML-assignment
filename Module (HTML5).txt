@@ -1,0 +1,120 @@
+                                                              Module (HTML5) – 3
+
+
+Q- What are the new tags added in HTML5?
+A- HTML5 is a new version of HTML ( Hypertext markup language) HTML5 introduced many new these tag are 
+   generally supported by all major browsers these tags is belong to many aspects such as media, graphic,
+   and forms.tags are:
+
+   <article>- Used to specify a blog, a magazine or a newspaper article or any other independent piece of content in a document.
+
+   <aside>-  Used to indicate that the specified article is somehow related to the rest of the document.
+
+   <audio>- Used to define an audio file in HTML.
+
+   <bdi>- Used for bi-directional isolation, i.e, to isolate a part of a content which is formatted in other direction from the 
+           outside text document.
+
+   <canvas>- Used to draw canvas in an HTML document.
+
+   <data>-Used to facilitate a machine readable version of the data.
+
+   <datalist>-Used to facilitate an auto complete feature for textfield.
+
+  <details>-Used to define any additional information on a topic or a summary.
+
+  <dialog>-Used to specify a window or a dialog box.
+
+  <figcaption>-Used to specify a caption for a <figure> element.
+
+  <figure>-Used to specify a self-contained content like photos, diagrams etc.
+
+  <footer>-Used to specify a footer for a section.
+
+  <header>-Used to specify a header for a section.
+
+  <main>- Used to specify the main content of a document.
+
+  <mark>- Used to mark or highlight the specified content.
+
+  <menuitem>- Used to specify a command that the user can invoke from a popup menu.
+
+  <meter>- Used to determine a scalar value within a given range.
+
+  <nav>- Used to specify a navigation link in an HTML document.
+
+  <progress>- Used to define the progress of a task.
+
+  <rp>- Used to specify the content to show in a browser that don’t support ruby annotation.
+
+  <rt>- Used to indicate an explanation or pronunciation of characters.
+
+  <ruby>- Used to specify a ruby annotation along with <rp> and <rt>.
+
+  <section>- Used to specify a section in an HTML document.
+
+  <summary>- Used to define a visible heading for the HTML <details> element.
+
+  <svg>- Used to display shapes.
+
+  <time>- Used to define a date or time.
+
+  <video>- Used to specify a video file in HTML.
+
+  <wbr>- Used to specify a line break opportunity.
+
+
+Q- How to embed audio and video in a webpage?
+A- Video: embed audio and video in a webpage.To show a video in HTML, use the <video> element.The controls attribute adds video controls,
+          like play, pause, and volume.It is a good idea to always include width and height attributes. If height and width are not set, 
+          the page might flicker while the video loads.The <source> element allows you to specify alternative video files which the 
+          browser may choose from. The browser will use the first recognized format.The text between the <video> and </video> tags 
+          will only be displayed in browsers that do not support the <video> element.
+  
+ Audio: The HTML <audio> element is used to play an audio file on a web page.To play an audio file in HTML, use the <audio> element
+        To play an audio file in HTML, use the <audio> element.The controls attribute adds audio controls, like play, pause, and volume.
+        The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the 
+        first recognized format.The text between the <audio> and </audio> tags will only be displayed in browsers that do not support
+        the <audio> element.he HTML DOM defines methods, properties, and events for the <audio> elementThis allows you to load, play, 
+        and pause audios, as well as set duration and volume.There are also DOM events that can notify you when an audio begins to 
+         play, is paused, etc.
+
+
+Q- Semantic element in HTML5?
+A- Semantic elements have meaningful names which tells about type of content. For example header, footer, table, … etc. 
+   HTML5 introduces many semantic elements as mentioned below which make the code easier to write and understand for the 
+   developer as well as instructs the browser on how to treat them. 
+   article
+   aside
+   details
+   figcaption
+   figure
+   footer
+   header
+   main
+   mark
+   nav
+  section
+
+Q- Canvas and SVG tags?
+A- SVG:
+        The HTML <svg> element is a container for SVG graphics.SVG stands for Scalable Vector Graphics
+        SVG is used to define graphics for the Web.SVG has several methods for drawing paths,boxes,circles, text, and
+        graphic images.SVG is a language for describing 2D graphics in XML.SVG is XML based,which means that every element 
+        is available within the SVG DOM.You can attach JavaScript event handlers for an element.In SVG, each drawn shape is 
+        remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+        Resolution independent.
+
+Canvas:
+        The HTML <canvas> element is used to draw graphics on a web page.The graphic to the left is created with <canvas>. It 
+        shows four elements a red rectangle, a gradient rectangle, a multicolor rectangle, and a multicolor text.the HTML 
+        <canvas> element is used to draw graphics, on the fly, via JavaScript.The <canvas> element is only a container for graphics. 
+        You must use JavaScript to actually draw the graphics.Canvas has several methods for drawing paths, boxes, circles, text, and
+        adding images.
+
+
+
+
+
+
+        
